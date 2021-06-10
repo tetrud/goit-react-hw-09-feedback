@@ -1,0 +1,24 @@
+.Statistics__list {
+  display: flex;
+}
+
+.Statistics__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.Statistics__button {
+  padding: 10px;
+  background-color: rgb(183, 238, 255);
+  text-transform: capitalize;
+  border: none;
+}
+
+.Statistics {
+  font-size: 18px;
+}
+
+.text__notification {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(138, 138, 138);
+}
